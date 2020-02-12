@@ -1,0 +1,12 @@
+<c3p0-config>
+    <default-config>
+        <property name="acquireIncrement">5</property>
+        <property name="initialPoolSize">10</property>
+        <property name="minPoolSize">5</property>
+        <property name="maxPoolSize">20</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/test01</property>
+        <property name="user">root</property>
+        <property name="password">123456</property>
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+    </default-config>
+</c3p0-config>
